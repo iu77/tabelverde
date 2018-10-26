@@ -1,0 +1,45 @@
+.grid-template {
+  border: 2px solid blake;
+  background-color: white;
+  margin: 2px;
+  padding: 2px;
+}
+#right {
+  align-content: right;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#content-page {
+  border-color: green;
+}
+#nav {
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 1px;
+  height: 100%;
+  padding: 39px;
+  background-color: yellowgreen;
+  float: left;
+}
+#Header {
+  background-color: yellowgreen;
+  width: 85%;
+  height: 19%;
+  float: right;
+}
+#article {
+  background-color: yellowgreen;
+  width: 85%;
+  height: 50%;
+  float: right;
+}
+#ads {
+  background-color: yellowgreen;
+  width: 85%;
+  height: 19%;
+  float: right;
+}
+#footer {
+  background-color: yellowgreen;
+  width: 85%;
+  height: 19%;
+  float: right;
