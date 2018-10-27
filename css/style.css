@@ -1,11 +1,11 @@
 .grid-template {
-  border: 2px solid blake;
   background-color: white;
   margin: 2px;
-  padding: 2px;
+  /* border-radius: 2%; */
 }
 #right {
   align-content: right;
+  border: 2px black;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 #content-page {
@@ -13,33 +13,48 @@
 }
 #nav {
   text-align: left;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  border: 1px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow ", sans-serif;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
   height: 100%;
-  padding: 39px;
+  width: 19%;
   background-color: yellowgreen;
   float: left;
 }
+#left-menu-bar a:visited {
+  color: #5e1d1d;
+  font-family: Impact, Haettenschweiler, Arial Impact, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif sans-serif;
+  text-decoration: underline;
+}
+#left-menu-bar a:hover {
+  color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: yellow;
+}
 #Header {
   background-color: yellowgreen;
-  width: 85%;
-  height: 19%;
+  width: 80%;
+  height: 15%;
   float: right;
+  border-top-right-radius: 3%;
 }
 #article {
   background-color: yellowgreen;
-  width: 85%;
-  height: 50%;
+  width: 80%;
+  height: 53%;
   float: right;
 }
 #ads {
   background-color: yellowgreen;
-  width: 85%;
-  height: 19%;
+  width: 80%;
+  height: 15%;
   float: right;
 }
 #footer {
   background-color: yellowgreen;
-  width: 85%;
-  height: 19%;
+  width: 80%;
+  height: 15%;
   float: right;
+  border-bottom-right-radius: 3%;
+}
